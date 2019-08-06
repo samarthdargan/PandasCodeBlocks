@@ -1,0 +1,4 @@
+dirName = 'C:\\Users\\mmt7746\\Documents\\PythonTest\\'
+zipFilename = dirName+ filename
+with zipfile.ZipFile(zipFilename, 'r') as zip_ref:
+    zip_ref.extractall(dirName)
